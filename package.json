@@ -1,6 +1,6 @@
 {
   "name": "rn-init-pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native setup CLI with navigation, reanimated, icons, fonts",
   "bin": {
     "rn-init-pro": "./index.js"
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stephenjoe10/rn-init-pro"
+    "url": "git+https://github.com/Stephenjoe10/rn-init-pro.git"
   },
   "homepage": "https://github.com/Stephenjoe10/rn-init-pro/blob/main/README.md",
   "bugs": {

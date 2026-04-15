@@ -57,7 +57,7 @@ const run = async () => {
 		startTask(`Installing ${deps.length} package(s)...`);
 
 		updateTask(`Installing: ${deps.join(', ')}`);
-		await execa('npm', ['install', ...deps], {
+		await execa('npm', ['install', ...deps, '--yes'], {
 			cwd: project,
 			stdio: 'inherit',
 		});
@@ -116,6 +116,13 @@ const run = async () => {
 
 		// =============================
 		if (answers.reanimated || answers.navigation.length > 0) {
+			if (answers.reanimated && !answers.navigation.length) {
+				await install([
+					'react-native-gesture-handler',
+					'react-native-reanimated',
+					'react-native-worklets',
+				]);
+			}
 			startTask('Configuring Reanimated...');
 
 			const babelPath = path.join(project, 'babel.config.js');
@@ -217,9 +224,13 @@ module.exports = {
 		startTask('Installing iOS dependencies...');
 
 		try {
-			await execa('npx', ['pod-install'], {
+			await execa('npx', ['--yes', 'pod-install'], {
 				cwd: project,
 				stdio: 'inherit',
+				env: {
+					...process.env,
+					CI: 'true'
+				}
 			});
 			succeedTask('iOS dependencies installed');
 		} catch {
@@ -255,6 +266,7 @@ module.exports = {
 		console.log(chalk.gray('\nHappy coding! 🚀\n'));
 	} catch (err) {
 		failTask('Failed to configure..');
+		console.log(err)
 	}
 };
 

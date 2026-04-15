@@ -5,9 +5,28 @@
 
 # 🚀 RN Init Pro
 
-A powerful CLI to quickly bootstrap a fully configured React Native project — without manual setup.
+⚡ Create fully configured React Native apps in seconds — no manual setup.
 
 ---
+
+
+## ⚡ Quick Start
+
+Run instantly (no install required):
+
+```bash
+npx rn-init-pro
+```
+
+⚠️ Recommended: Use npx instead of installing globally.
+
+optional (Not Recommended)
+
+npm install -g rn-init-pro
+rn-init-pro
+
+---
+
 
 ## ✨ Features
 
@@ -21,6 +40,7 @@ A powerful CLI to quickly bootstrap a fully configured React Native project — 
 
 ---
 
+
 ## 📦 Usage
 
 No installation required. Just run:
@@ -30,6 +50,7 @@ npx rn-init-pro
 ```
 
 ---
+
 
 ## 🎯 Why use RN Init Pro?
 
@@ -47,6 +68,7 @@ This CLI helps you:
 
 ---
 
+
 ## 🔤 Custom Fonts Setup
 
 1. Download your fonts
@@ -62,7 +84,9 @@ This CLI helps you:
 npx react-native-asset
 ```
 
+
 ---
+
 
 ## 📱 Run Your App
 
@@ -71,7 +95,9 @@ npx react-native run-android
 npx react-native run-ios
 ```
 
+
 ---
+
 
 ## 🔒 Safe & Trusted
 
@@ -80,7 +106,9 @@ npx react-native run-ios
 * Transparent setup process
 * Open-source and customizable
 
+
 ---
+
 
 ## 💡 Future Improvements
 
@@ -88,27 +116,35 @@ npx react-native run-ios
 * TypeScript template
 * Pre-built project templates
 
+
 ---
+
 
 ## 🔗 Links
 
 - 🌐 GitHub: https://github.com/Stephenjoe10/rn-init-pro
 - 🐛 Issues: https://github.com/Stephenjoe10/rn-init-pro/issues
 
+
 ---
+
 
 ## ⭐ Support
 
 If you find this useful, please give it a star ⭐  
 👉 https://github.com/Stephenjoe10/rn-init-pro
 
+
 ---
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
+
 ---
+
 
 ## 📄 License
 
