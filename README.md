@@ -1,7 +1,7 @@
 ![npm](https://img.shields.io/npm/v/rn-init-pro)
 ![downloads](https://img.shields.io/npm/dm/rn-init-pro)
 ![license](https://img.shields.io/npm/l/rn-init-pro)
-![github stars](https://img.shields.io/github/stars/yourname/rn-init-pro)
+![github stars](https://img.shields.io/github/stars/Stephenjoe10/rn-init-pro)
 
 # 🚀 RN Init Pro
 
@@ -92,15 +92,15 @@ npx react-native run-ios
 
 ## 🔗 Links
 
-- 🌐 GitHub: https://github.com/yourname/rn-init-pro
-- 🐛 Issues: https://github.com/yourname/rn-init-pro/issues
+- 🌐 GitHub: https://github.com/Stephenjoe10/rn-init-pro
+- 🐛 Issues: https://github.com/Stephenjoe10/rn-init-pro/issues
 
 ---
 
 ## ⭐ Support
 
 If you find this useful, please give it a star ⭐  
-👉 https://github.com/yourname/rn-init-pro
+👉 https://github.com/Stephenjoe10/rn-init-pro
 
 ---
 

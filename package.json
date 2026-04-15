@@ -24,11 +24,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourname/rn-init-pro.git"
+    "url": "https://github.com/Stephenjoe10/rn-init-pro"
   },
-  "homepage": "https://github.com/yourname/rn-init-pro#readme",
+  "homepage": "https://github.com/Stephenjoe10/rn-init-pro/blob/main/README.md",
   "bugs": {
-    "url": "https://github.com/yourname/rn-init-pro/issues"
+    "url": "https://github.com/Stephenjoe10/rn-init-pro/issues"
   },
   "author": "STEPHEN A",
   "license": "MIT"
