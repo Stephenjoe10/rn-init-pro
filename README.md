@@ -23,6 +23,7 @@ npx rn-init-pro
 optional (Not Recommended)
 
 npm install -g rn-init-pro
+
 rn-init-pro
 
 ---
@@ -41,17 +42,6 @@ rn-init-pro
 ---
 
 
-## 📦 Usage
-
-No installation required. Just run:
-
-```bash
-npx rn-init-pro
-```
-
----
-
-
 ## 🎯 Why use RN Init Pro?
 
 Setting up React Native manually can be time-consuming and error-prone.
@@ -62,9 +52,9 @@ This CLI helps you:
 * ❌ Skip configuration errors
 * ❌ Save hours of work
 
-✅ Get everything ready in minutes
-✅ Clean and consistent project setup
-✅ Beginner-friendly & production-ready
+* ✅ Get everything ready in minutes
+* ✅ Clean and consistent project setup
+* ✅ Beginner-friendly & production-ready
 
 ---
 
